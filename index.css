@@ -1,4 +1,4 @@
-
+/*temp css file*/
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
@@ -7,7 +7,7 @@
 
 body {
   margin: 0;
-   font-style: courier;
+   font-family: "Courier New", Courier, monospace
  
 }
 
