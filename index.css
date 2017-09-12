@@ -71,7 +71,7 @@ body {
 .page_content{
  position: absolute;
     left: 0;
-    top: 50%;
+    top: 30%;
     width: 100%;
     text-align: center;
 }
