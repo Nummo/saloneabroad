@@ -1,35 +1,249 @@
 <!DOCTYPE html>
-<html lang="en-uk">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="index.css">
-		<title>Salone Abroad - sharing the lives and stories of Sierra Leoneans</title>
-
-<!--this file contains the temp info/ holding page -->
-</head>
-
+<html>
+<title>Salone Abroad</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="_css/index_c3.css">
+<link rel="stylesheet" href="_css/index.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/jpg" href="_images/logo.jpg" />
 <body>
-	<div class="header">
-	
+<!-- Souce of template: https://www.w3schools.com/w3css/tryw3css_templates_architect.htm -->
 
-	<div class="topnav" id="myTopnav">
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>SA</b> Salone Abroad</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+      <a href="#activities" class="w3-bar-item w3-button">Activities</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+  <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button">Projects</a>
+  <a href="#activities" onclick="w3_close()" class="w3-bar-item w3-button">Activities</a>
+ <!-- <a href="#collection" onclick="w3_close()" class="w3-bar-item w3-button">collection</a>-->
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
+</nav>
+
+<!-- Header -->
+<header class="bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Salone Abroad</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Salone Abroad</span><br>
+    <span class="w3-large">documenting the lives of Sierra Leoneans around the world</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">learn more</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <a href="https://www.instagram.com/saloneabroad" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/SaloneAbroad" target="_blank" ><i class="fa fa-twitter w3-hover-opacity"></i></a>
+  </div>
+</header>
+
+
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-yellow w3-padding">Salone's London</div>
+        <img src="_images/map-Kevin Norris - Pixabay.jpg" alt="map" style="width:100%">
+        <p class="small-credits">image credit: Kevin Norris from Pixabay</p>
+        <p>Looking at the role of community-led archives and oral histories in the African diaspora.</p>
+        <p>Our ongoing project exploring the lives and experiences of Sierra Leoneans in London. Our first stop is east London.</p>
+        <p>We are conducting oral histories with Sierra Leoenans who are based or who have lived in east London. If this is you, and you who would like to share your stories with us through an oral history interview, get in touch: <a href="mailto:saloneabroad@gmail.comSubject=Narrator%20East%20London" target="_top">saloneabroad@gmail.com</a></p>
+      </div>
+    </div>
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-yellow w3-padding">Creating & Finding Voices</div>
+        <img src="_images/microphone-Serdar Ablak - Pixabay.jpg" alt="microphone" style="width:100%">
+        <p class="small-credits">image credit: Serdar Ablak  from Pixabay</p>
+        <p>Looking at the role of community-led archives and oral histories in the African diaspora.</p>
+        <p>Activities include our <a href="https://www.eventbrite.co.uk/e/salone-i-zine-workshop-tickets-60713751465#" target="_blank"> zine workshop</a> and the <a href="https://www.ucl.ac.uk/institute-of-advanced-studies/events/2019/jul/diaspora-i-talk-sheila-maurice-grey" target="_blank">Diaspora & Talk with Sheila Maurice-Grey</a></p>
+        <p class="small-credits">Funded and supported by:</p>
+        <a href ="https://www.ucl.ac.uk/culture/" target="_blank"><img src="https://www.ucl.ac.uk/cpc/wp-content/uploads/ucl-logo.jpg" alt="University College London's logo" style="width:50%"></a>
+      </div>
+    </div>
+  </div>
+
+	<!-- Activities Section -->
+  <div class="w3-container w3-padding-32" id="activities">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Activities</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-yellow w3-padding">Oral Histories</div>
+        <img src="_images/sd.jpg" alt="SD Card" style="width:100%">
+        <p class="small-credits">image credit: Tom Pumford on Unsplash</p>
+        <p>The core of our work is the production of oral histories. <i>What is oral histories?</i> It is the recording of memories, experiences and opinions of by people. Our oral historians have completed oral history training from the <a href="https://www.ohs.org.uk" target="_blank">Oral History Society</a></p>
+      </div>
+    </div>
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-yellow w3-padding">Zine Workshop</div>
+        <img src="_images/zine.jpg" alt="Zine Frontcover" style="width:100%">
+        <p class="small-credits">image credit: Copyright &copy; Salone Abroad</p>
+        <p>Guided by a theme or topic, our Salone & I zine workshop invites guests to share, listen and reflect on life in the Salone diaspora. Together we produce a zine to document these narratives.</p> 
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Collections Section -->
+    <div class="w3-container w3-padding-32" id="activities">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Collections</h3>
+    <h4>In Development: Oral History Collection</h4>
+    <h5>Get involved</h5>
+    <p>We welcome opinions and thoughts on how people can engage and use the collections. If you would like your say, you can complete our survey or join our user advisory group.</p>
+    <a href="https://sa34.typeform.com/to/etxULw" target="_blank" class="w3-btn w3-orange w3-round-xlarge">Collections Survey</a> 
+    <p>Request further information on our user advisory group.</p>
+    <p><button class="w3-button w3-orange w3-round-xlarge" href="mailto:saloneabroad@gmail.comSubject=User%20Advisory%20Group" target="_top">Email us</button></p>
+
+  </div>
+
+  <!--<div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Salone Life</div>
+        <img src="/w3images/house2" alt="SD Card" style="width:100%">
+      </div>
+    </div>
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Athens of the West</div>
+        <img src="/w3images/house2.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Eastend</div>
+        <img src="/w3images/house2" alt="xxx" style="width:100%">
+      </div>
+    </div> 
+	-->
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+    <p>Salone Abroad is a space that documents and shares the lives of Sierra Leoneans living in the diaspora. We use oral histories and zines to reflect on the movement of fellow Sierra Leoneans and how we live, share and commerate our culture and heritage in homes-away-from home.
+    </p>
+  </div>
+
+  <div class="w3-row-padding ">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="_images/julia-joppien--3wygakaeQc-unsplash.jpg" alt="notebooks" style="width:70%">
+      <p class="small-credits">image credit: Julia Joppien on Unsplash</p>
+      <h3>Nenna</h3>
+      <p class="w3-opacity">Founder</p>
+      <p>Nenna is the founder and lead on Salone Abroad. She is an oral historian and has a background in public events programming in education and culture sectors. Outside of Salone Abroad, you can find her exploring geographic information systems, insider researcher and diaspora research methodologies, diaspora experiences and the role of the diaspora in development.</p>
+      <p><a href="mailto:saloneabroad@gmail.comSubject=Hello"target="_top"><button class="w3-button w3-light-grey w3-block">Contact</button></a></p>
+    </div>
  
-  	<a><b>Salone Abroad.... coming soon</b></a>
- 
-	</div>
-	</div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="_images/KHF-Logo.jpg" alt="Krio Heritage Foundation's logo" style="width:70%">
+      <p class="small-credits">image credit: Copyright &copy; Krio Heritage Foundation</p>
+      <h3>Krio Heritage Foundation</h3>
+      <p class="w3-opacity">Partner</p>
+      <p>We work with the Krio Heritage Foundation (KHF) on a oral history and documentations projects. The KHF is a community undertaking that aims to invest in the tradition, culture and heritage of its people, the Krios in the diaspora and in Sierra Leone. </p>
+      <p><a href="mailto:info@krioheritagefoundation.orgSubject=Hello"target="_top"><button class="w3-button w3-light-grey w3-block">Contact</button></a></p>
+      <p><a href="http://krioheritagefoundation.org/"target="_blank"><button class="w3-button w3-light-grey w3-block">Website</button></a></p>
+      	
+    </div>
 
-	<div class="page_content">
-	<img src="img/salogo@3x.png" height="80" width="80" align="middle">
-	<h1 align="center"> <b> Salone Abroad </b></h1>
-	<h2 align="center"> <em> exploring the stories of Sierra Leoneans around the world </em> </h2>
-	<h3 align="center">new website coming soon </h3>
-	<h4 align="center">this website is currently under construction. for further details check out our <a href="https://saloneabroad.wordpress.com/" a target="_blank"> blog</a></h4>
-	</div>
+  </div>
 
-	<footer>
-	<p>Salone Abroad - Copyright 2017</p>
-	</footer>
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+    <h4>Get in touch</h4>
+        <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: <a href="mailto:saloneabroad@gmail.com">saloneabroad@gmail.com</a></p>
+    <h4>Get involved</h4>
+    	<p>If you are a Sierra Leonean community organisation or group and would like to collaborate together get in touch via the email address.</p>
+    <h4>Have your say</h4>
+    	<p>We are building an online archive about Sierra Leoneans for Sierra Leoneans. We welcome your thougts and opinions so please complete this short questionnaire:</p>
+      <a href="https://sa34.typeform.com/to/etxULw" target="_blank" class="w3-btn w3-orange w3-round-xlarge">Collections Survey</a> 
+      <p>Let us know how you would like to get invovled by completing our survey:</p>
+      <a href="https://sa34.typeform.com/to/gEuV7J" target="_blank" class="w3-btn w3-orange w3-round-xlarge">Get involved</a> 
+    <!--<form action="/action_page.php" target="_blank">
+      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+      <button class="w3-button w3-black w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+    </form>
+-->
+  </div>
+  
 
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.instagram.com/saloneabroad/" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/SaloneAbroad" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <p>Copyright &copy; 2019  Salone Abroad</p>
+</footer>
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
 </body>
 </html>

@@ -1,0 +1,23 @@
+.small-credits{
+	font-size: 5px;
+	line-height:0;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  /*background-image: url("http://lh5.ggpht.com/-IJL0pMC-aNU/VBF1wzMQBHI/AAAAAAAA7Lc/wsC03foJaVc/cotton-tree-freetown-2%25255B2%25255D.jpg?imgmax=800");*/
+  background-image: url("../_images/cotton-tree-background-yellow.png");
+
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+.project-info{
+	font-size: 11px;
+	line-height: 0;
+}
