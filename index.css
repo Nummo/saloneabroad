@@ -21,3 +21,17 @@
 	font-size: 11px;
 	line-height: 0;
 }
+
+
+.footerCookies {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  font-size: 9px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
